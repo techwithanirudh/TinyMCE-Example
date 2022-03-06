@@ -62,4 +62,6 @@ tinymce.init({
   fullscreen_native: true
  });
 
- tinymce.activeEditor.execCommand('mceFullScreen');
+setTimeout(() => {
+	tinymce.activeEditor.execCommand('mceFullScreen');
+}, 1500)

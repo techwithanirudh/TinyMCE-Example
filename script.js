@@ -56,6 +56,7 @@ tinymce.init({
   toolbar_mode: 'sliding',
   contextmenu: 'link image imagetools table',
   skin: useDarkMode ? 'oxide-dark' : 'oxide',
-  content_css: useDarkMode ? 'dark' : 'default',
+  // content_css: useDarkMode ? 'dark' : 'default',
+  content_css: useDarkMode ? 'dark' : 'document',
   content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
  });

@@ -58,5 +58,8 @@ tinymce.init({
   skin: useDarkMode ? 'oxide-dark' : 'oxide',
   // content_css: useDarkMode ? 'dark' : 'default',
   content_css: useDarkMode ? 'dark' : 'document',
-  content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+  content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
+  fullscreen_native: true
  });
+
+ tinymce.activeEditor.execCommand('mceFullScreen');

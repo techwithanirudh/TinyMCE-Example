@@ -54,3 +54,7 @@ img.align-right {
 .mce-toc li {
   list-style-type: none;
 }
+
+.tox-statusbar__branding a {
+	display: none;
+}
